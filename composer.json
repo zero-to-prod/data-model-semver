@@ -1,0 +1,42 @@
+{
+  "type": "library",
+  "name": "zero-to-prod/data-model-semver",
+  "description": "A DataModel Representing the Components of a SemVer String",
+  "keywords": [
+    "semver",
+    "zero-to-prod",
+    "data-model-semver"
+  ],
+  "homepage": "https://github.com/zero-to-prod/data-model-semver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Smith",
+      "email": "dave0016@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "zero-to-prod/transformable": "^71.0",
+    "zero-to-prod/semver-regex": "^71.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zerotoprod\\DataModelSemver\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "suggest": {
+    "zero-to-prod/semver-regex": "A regular expression to check a SemVer string",
+    "zero-to-prod/validate-semver": "Validates a SemVer String",
+    "zero-to-prod/data-model-factory": "Factories for a DataModel.",
+    "zero-to-prod/data-model": "Type-safe DTOs"
+  }
+}
