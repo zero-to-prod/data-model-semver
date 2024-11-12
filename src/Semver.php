@@ -2,7 +2,7 @@
 
 namespace Zerotoprod\DataModelSemver;
 
-use Zerotoprod\SemverRegex\SemverRegex;
+use Zerotoprod\RegexSemver\RegexSemver;
 use Zerotoprod\Transformable\Transformable;
 
 class Semver
@@ -107,7 +107,7 @@ class Semver
             return $self;
         }
 
-        preg_match(SemverRegex::pattern, $version, $matches);
+        preg_match(RegexSemver::pattern, $version, $matches);
         foreach ($matches as $key => $match) {
             if (property_exists($self, $key)) {
                 $self->$key = ($key === self::major || $key === self::minor || $key === self::patch)
