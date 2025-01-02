@@ -9,6 +9,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/data-model-semver?color=f28d1a)](https://packagist.org/packages/zero-to-prod/data-model-semver)
 [![License](https://img.shields.io/packagist/l/zero-to-prod/data-model-semver?color=pink)](https://github.com/zero-to-prod/data-model-semver/blob/main/LICENSE.md)
 [![wakatime](https://wakatime.com/badge/github/zero-to-prod/data-model-semver.svg)](https://wakatime.com/badge/github/zero-to-prod/data-model-semver)
+[![Hits-of-Code](https://hitsofcode.com/github/zero-to-prod//data-model-semver?branch=main)](https://hitsofcode.com/github/zero-to-prod//data-model-semver/view?branch=main)
 
 A `DataModel` representing the components of a SemVer string.
 
