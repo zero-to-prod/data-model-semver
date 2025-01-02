@@ -8,6 +8,7 @@
 [![php](https://img.shields.io/packagist/php-v/zero-to-prod/data-model-semver.svg?color=purple)](https://packagist.org/packages/zero-to-prod/data-model-semver/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/data-model-semver?color=f28d1a)](https://packagist.org/packages/zero-to-prod/data-model-semver)
 [![License](https://img.shields.io/packagist/l/zero-to-prod/data-model-semver?color=pink)](https://github.com/zero-to-prod/data-model-semver/blob/main/LICENSE.md)
+[![wakatime](https://wakatime.com/badge/github/zero-to-prod/data-model-semver.svg)](https://wakatime.com/badge/github/zero-to-prod/data-model-semver)
 
 A `DataModel` representing the components of a SemVer string.
 
