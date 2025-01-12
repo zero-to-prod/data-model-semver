@@ -17,6 +17,12 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Local Development](#local-development)
+    - [Prerequisites](#prerequisites)
+    - [Initializing](#initializing)
+    - [Testing](#testing)
+    - [Configuration](#configuration)
+- [Contributing](#contributing)
 
 ## Introduction
 
@@ -59,7 +65,8 @@ Semver::from('1.2.3-prerelease+meta')->toJson();
 
 ## Local Development
 
-This project provides a convenient [dock](https://github.com/zero-to-prod/dock) script to simplify local development workflows within Docker containers.
+This project provides a convenient [dock](https://github.com/zero-to-prod/dock) script to simplify local development workflows within Docker
+containers.
 
 You can use this script to initialize the project, manage Composer dependencies, and run tests in a consistent PHP environment.
 
