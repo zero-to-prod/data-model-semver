@@ -35,7 +35,8 @@
     "php": ">=7.1",
     "zero-to-prod/transformable": "^71.0",
     "zero-to-prod/regex-semver": "^71.0",
-    "ext-json": "*"
+    "ext-json": "*",
+    "zero-to-prod/package-helper": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -48,8 +49,7 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "*",
-    "zero-to-prod/package-helper": "^1.0"
+    "phpunit/phpunit": "*"
   },
   "bin": [
     "bin/data-model-semver"
