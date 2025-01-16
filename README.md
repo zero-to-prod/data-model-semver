@@ -17,6 +17,8 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Helper Methods](#helper-methods)
+- [Publishing DataModels](#publishing-datamodels)
 - [Local Development](./LOCAL_DEVELOPMENT.md)
 - [Contributing](#contributing)
 
@@ -58,6 +60,17 @@ echo $Semver->buildmetadata; //meta
 Semver::from('1.2.3-prerelease+meta')->toArray();
 Semver::from('1.2.3-prerelease+meta')->toJson();
 ```
+
+## Publishing DataModels
+
+You can directly import these files into your project like this:
+
+```shell
+./vendor/bin/data-model-envoyer app/DataModels
+```
+
+The first argument is the destination of where the files are copied to.
+
 
 ## Contributing
 
