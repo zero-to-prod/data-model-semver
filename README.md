@@ -66,7 +66,7 @@ Semver::from('1.2.3-prerelease+meta')->toJson();
 You can directly import these files into your project like this:
 
 ```shell
-./vendor/bin/data-model-envoyer app/DataModels
+./vendor/bin/data-model-semver app/DataModels
 ```
 
 The first argument is the destination of where the files are copied to.
