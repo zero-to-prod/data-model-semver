@@ -3,7 +3,7 @@
 ![](art/logo.png)
 
 [![Repo](https://img.shields.io/badge/github-gray?logo=github)](https://github.com/zero-to-prod/data-model-semver)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/data-model-semver/test.yml?label=tests)](https://github.com/zero-to-prod/data-model-semver/actions)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zero-to-prod/data-model-semver/test.yml?label=test)](https://github.com/zero-to-prod/data-model-semver/actions)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/zero-to-prod/data-model-semver?color=blue)](https://packagist.org/packages/zero-to-prod/data-model-semver/stats)
 [![php](https://img.shields.io/packagist/php-v/zero-to-prod/data-model-semver.svg?color=purple)](https://packagist.org/packages/zero-to-prod/data-model-semver/stats)
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/data-model-semver?color=f28d1a)](https://packagist.org/packages/zero-to-prod/data-model-semver)
