@@ -49,7 +49,7 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "<12.0"
   },
   "bin": [
     "bin/data-model-semver"
