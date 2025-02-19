@@ -5,6 +5,11 @@ namespace Zerotoprod\DataModelSemver;
 use Zerotoprod\RegexSemver\RegexSemver;
 use Zerotoprod\Transformable\Transformable;
 
+/**
+ * A DataModel Representing the Components of a SemVer String
+ *
+ * @link https://github.com/zero-to-prod/data-model-semver
+ */
 class Semver
 {
     use Transformable;
@@ -14,7 +19,8 @@ class Semver
      *
      * @var string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public const major = 'major';
 
@@ -23,7 +29,8 @@ class Semver
      *
      * @var string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public const minor = 'minor';
 
@@ -32,7 +39,8 @@ class Semver
      *
      * @var string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public const patch = 'patch';
 
@@ -41,7 +49,8 @@ class Semver
      *
      * @var string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public const prerelease = 'prerelease';
 
@@ -50,7 +59,8 @@ class Semver
      *
      * @var string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public const buildmetadata = 'buildmetadata';
 
@@ -59,7 +69,8 @@ class Semver
      *
      * @var null|int
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public $major;
 
@@ -68,7 +79,8 @@ class Semver
      *
      * @var null|int
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public $minor;
 
@@ -77,7 +89,8 @@ class Semver
      *
      * @var null|int
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public $patch;
 
@@ -86,7 +99,8 @@ class Semver
      *
      * @var null|string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public $prerelease;
 
@@ -95,10 +109,14 @@ class Semver
      *
      * @var null|string
      *
-     * @link https://semver.org/
+     * @link https://semver.org
+     * @link https://github.com/zero-to-prod/data-model-semver
      */
     public $buildmetadata;
 
+    /**
+     * @link https://github.com/zero-to-prod/data-model-semver
+     */
     public static function from(string $version = ''): self
     {
         $self = new self();
